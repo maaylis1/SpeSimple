@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Méthodes - Aperçu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5fff5;
+            color: #333;
+        }
+        header {
+            background-color: #78d171;
+            color: #4c9c4c; /* vert plus foncé pour titres */
+            padding: 30px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0 0 10px 0;
+        }
+        header p {
+            margin: 0;
+        }
+        nav {
+            background-color: #ffffff;
+            border-bottom: 4px solid #9fe89b;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #78d171;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 15px;
+        }
+        .case-principale {
+            background-color: #effdeb;
+            border: 2px solid #9fe89b;
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+        }
+        .case-principale h2 {
+            color: #4c9c4c; /* vert plus foncé pour titre Ressources */
+        }
+        .bloc {
+            display: block;
+            margin: 20px auto;
+            padding: 25px;
+            width: 80%;
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #78d171;
+            text-decoration: none;
+            border: 2px solid #9fe89b;
+            border-radius: 12px;
+            background-color: #ffffff;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .bloc:hover {
+            background-color: #dcf8d8;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #c8f5c1;
+            color: #4c9c4c; /* vert plus foncé pour footer */
+            margin-top: 50px;
+        }
+    </style>
+    <script>
+        function notAvailable() {
+            alert("Cette page sera bientôt disponible !");
+            return false;
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Méthodes</h1>
+        <p>Astuces, automatisme et ressources pour mieux réussir</p>
+    </header>
+
+    <nav>
+        <a href="./index.html">Accueil</a>
+        <a href="./maths.html">Maths</a>
+        <a href="./physique-chimie.html">Physique-Chimie</a>
+        <a href="./methodes.html">Méthodes</a>
+        <a href="./a-propos.html">À propos</a>
+    </nav>
+
+    <main>
+        <div class="case-principale">
+            <h2>Ressources</h2>
+            <a class="bloc" onclick="return notAvailable();">Automatismes</a>
+            <a class="bloc" onclick="return notAvailable();">Astuces</a>
+            <a class="bloc" onclick="return notAvailable();">Vidéos</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>SpéSimple - Ressources pour la Spé Maths & SPC</p>
+    </footer>
+</body>
+</html>
