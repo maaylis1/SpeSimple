@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -14,20 +13,20 @@
             color: #333;
         }
         header {
-            background-color: #0077cc;
+            background-color: #add8ff;
             color: white;
             padding: 20px;
             text-align: center;
         }
         nav {
             background-color: #ffffff;
-            border-bottom: 4px solid #9b59b6;
+            border-bottom: 4px solid #add8ff; /* bleu clair */
             padding: 10px;
             text-align: center;
         }
         nav a {
             margin: 0 15px;
-            color: #0077cc;
+            color: #add8ff;
             text-decoration: none;
             font-weight: bold;
         }
@@ -35,24 +34,47 @@
             text-decoration: underline;
         }
         main {
-            max-width: 800px;
+            max-width: 900px;
             margin: 30px auto;
             padding: 0 15px;
         }
         h2 {
-            color: #0077cc;
+            color: #add8ff;
         }
-        .chapitre {
-            border-left: 4px solid #9b59b6;
-            padding-left: 10px;
-            margin-bottom: 25px;
+        .case {
+            border: 2px solid #add8ff; /* bleu clair */
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 20px;
+            background-color: #eef7ff; /* bleu très pale */
+        }
+        ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+    .btn {
+            display: inline-block;
+            padding: 6px 12px;
+            border: 2px solid #add8ff;
+            border-radius: 8px;
+            background-color: #ffffff;
+            text-decoration: none;
+            color: #add8ff;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .btn:hover {
+            background-color: #d9edff;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Physique-Chimie</h1>
-        <p>Ressources et explications simples pour comprendre les chapitres de Première</p>
+        <p>Cours simplifiés et explications pour les chapitres de Première</p>
     </header>
 
     <nav>
@@ -64,58 +86,44 @@
     </nav>
 
     <main>
-        <h2>Chapitres de Physique-Chimie</h2>
+        <div class="case">
+            <h2>Chapitres</h2>
 
-        <div class="chapitre">
             <h3>1. Ondes et signaux</h3>
             <ul>
                 <li>Ondes mécaniques</li>
                 <li>Lentilles minces convergentes</li>
             </ul>
-            <p><strong>Bientôt :</strong> cours simplifié + exercices corrigés.</p>
-        </div>
+            <p><a href="#" class="btn">Fiches</a> | <a href="#" class="btn">Exercices</a></p>
 
-        <div class="chapitre">
             <h3>2. Mouvements et interactions</h3>
             <ul>
-                <li>Mouvements rectilignes</li>
-                <li>Forces et vecteurs</li>
-                <li>Loi de Newton</li>
+                <li>Cinématique</li>
+                <li>Dynamique</li>
             </ul>
-            <p><strong>Bientôt :</strong> schémas explicatifs + fiches mémo.</p>
-        </div>
+            <p><a href="#" class="btn">Fiches</a> | <a href="#" class="btn">Exercices</a></p>
 
-        <div class="chapitre">
             <h3>3. Transformations chimiques</h3>
             <ul>
+                <li>Réactions chimiques</li>
                 <li>Quantité de matière</li>
-                <li>Équations chimiques</li>
-                <li>Avancement</li>
             </ul>
-            <p><strong>Bientôt :</strong> exercices guidés étape par étape.</p>
-        </div>
+            <p><a href="#" class="btn">Fiches</a> | <a href="#" class="btn">Exercices</a></p>
 
-        <div class="chapitre">
             <h3>4. Énergie et conversions</h3>
             <ul>
-                <li>Travail d'une force</li>
-                <li>Énergie cinétique et potentielle</li>
-                <li>Conservation de l'énergie mécanique</li>
+                <li>Travail et puissance</li>
+                <li>Énergie mécanique</li>
             </ul>
-            <p><strong>Bientôt :</strong> exemples et exercices guidés.</p>
-        </div>
+            <p><a href="#" class="btn">Fiches</a> | <a href="#" class="btn">Exercices</a></p>
 
-        <div class="chapitre">
             <h3>5. Transformations acide-base</h3>
             <ul>
-                <li>pH et notions d'acidité</li>
-                <li>Réactions acide/base</li>
-                <li>Titrage et courbe d'équivalence</li>
+                <li>pH</li>
+                <li>Réactions acide-base</li>
             </ul>
-            <p><strong>Bientôt :</strong> fiches mémo + applications pratiques.</p>
+            <p><a href="#" class="btn">Fiches</a> | <a href="#" class="btn">Exercices</a></p>
         </div>
-
-        <p>Plus de contenu arrive très vite.</p>
     </main>
 
     <footer>
